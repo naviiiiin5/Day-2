@@ -1,6 +1,7 @@
 body{
     background-image: url("images/background.jpg");
-    background-size: 100%;
+    background-size: auto auto;
+    
 }
 #logo{
     display: block;
@@ -9,20 +10,40 @@ body{
     height: 40%;
 }
 #loadingBar{
-   background-color:rgb(187, 17, 187);
+   background-color:rgb(241, 11, 241);
    height: 27px;
-   width:800px;
    display: block;
-   margin: 4em auto auto auto;
-   border-radius: 40px;
-  border: 3px solid rgb(255, 215, 35);
   text-align: center;
+  border-radius: 40px;
   font-size: 25px;
   font-style: initial; 
-  color:white;
+
+}
+#parentDiv{
+    background-color:#ddd569;
+    height: 27px;
+    width:50%;
+    display: block;
+    margin: 0 auto auto auto;
+    border-radius: 40px;
+    border: 3px solid rgb(255, 215, 35);
+   text-align: center;
+   font-size: 25px;
+   font-style: initial; 
+
 }
 #barbarian{
-    height: 20%;
+    height: 40%;
     width: 20%;
     margin-left:160px;
+    margin-top:100px;
+}
+#text{
+    display: block;
+    margin: 0em auto 0 auto;
+   text-align: center;
+   font-size: 50px;
+   font-style: initial; 
+   color: rgb(255, 253, 255);
+
 }
