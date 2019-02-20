@@ -10,7 +10,7 @@ body{
     height: 40%;
 }
 #loadingBar{
-   background-color:rgb(241, 11, 241);
+   background-color:rgb(185, 117, 185);
    height: 27px;
    display: block;
   text-align: center;
@@ -20,13 +20,13 @@ body{
 
 }
 #parentDiv{
-    background-color:hsl(60, 100%, 100%);
+    background-color:rgb(221, 221, 221);
     height: 27px;
     width:50%;
     display: block;
     margin: 0 auto auto auto;
     border-radius: 40px;
-    border: 2px solid rgb(255, 215, 35);
+    border: 2px solid rgb(241, 234, 187);
    text-align: center;
    font-size: 25px;
    font-style: initial; 
