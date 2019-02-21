@@ -1,5 +1,6 @@
 function main(){
     var loader=document.getElementById("loadingBar");
+    var loadingaText=document.getElementById("loadingText");
     var width=0;
     var timeInternal=setInterval(function(){  
         if(width==100) 
@@ -8,6 +9,7 @@ function main(){
         }
         loader.style.backgroundColor="rgb(241, 11, 241)";
         loader.style.width=width+"%";
-        width+=0.5;
+        loadingaText.innerHTML="loading.."+width+"%";
+        width+=1;
     },1000/60);
 }
