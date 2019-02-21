@@ -7,9 +7,9 @@ function main(){
         {
             clearInterval(timeInternal);
         }
-        loader.style.backgroundColor="rgb(241, 11, 241)";
+        loader.style.backgroundColor="#992f99";
         loader.style.width=width+"%";
-        loadingaText.innerHTML="loading.."+width+"%";
+        loadingaText.innerHTML="loading..."+width+"%";
         width+=1;
     },1000/60);
 }
