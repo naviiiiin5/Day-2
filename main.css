@@ -5,9 +5,9 @@ body{
 }
 #logo{
     display: block;
-    margin:auto;
-    width: 30%;
-    height: 30%;
+    margin:auto auto auto 48%;
+    width: 15%;
+    height: 15%;
 }
 #loadingBar{
    height: 27px;
@@ -24,14 +24,9 @@ body{
     border-radius: 40px;
     border: 2px solid rgb(241, 234, 187);  
 }
-#barbarian{
-    height: 40%;
-    width: 20%;
-    margin-left:70%;
-}
 #text{
     display: block;
-    margin: 3.5em auto 0 auto;
+    margin: 10em auto 0 auto;
    text-align: center;
    font-size: 50px;
    font-style: initial; 
